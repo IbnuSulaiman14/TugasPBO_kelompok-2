@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Tugas PBO</title>
+  </head>
+  <body>
+      <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: palevioletred;">
+        <div class="container-fluid" >
+        <a class="navbar-brand fw-bold" style="font-family:serif; font-size:30px;" href="#">Company 2</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tanah & Bangunan
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ruang
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Alat
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Log Out</a>
+              </li>
+        </div>
+    </div> 
+</nav>
+ <!-- akhir navbar -->
+
+<!-- Form -->
+
+<div class="container-sm" style="background-color: pink;">
+    <br>
+    <p class="fw-bold" style="text-align: center; color:black;">-Tambah / Bangunan-</p>
+    <div class="row g-5">
+        <div class="col">
+             <div class="form-group row">
+                 <label for="input1" class="col col-form-label">Jenis Prasarana</label>
+                 <div class="col">
+                    <select class="form-select" aria-label="Default select exaple" id="input1">
+                        <option selected>Ruang Sirkulasi</option>
+                        <option value="1">Ruang Lab</option>
+                        <option value="2">Ruang Perpustakaan</option>
+                        <option value="3">Ruang Kantor</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+             <div class="form-group row">
+                 <label for="input2" class="col col-form-label">Nama</label>
+                 <div class="col">
+                     <input type="text" class="form-control" id="input2" >
+                 </div>
+             </div>
+            <br>            
+             <div class="form-group row">
+                 <label for="input3" class="col col-form-label">No. Sertifikat Tanah</label>
+                 <div class="col">
+                     <input type="text" class="form-control" id="input3" >
+                 </div>
+              </div>
+             <br>
+            <div class="form-group row">
+                 <label for="input2" class="col col-form-label">Panjang</label>
+                 <div class="col">
+                     <input type="text" class="form-control" id="input2" >
+                 </div>
+             </div>
+            <br>
+            <div class="form-group row">
+                 <label for="input2" class="col col-form-label">Lebar</label>
+                 <div class="col">
+                     <input type="text" class="form-control" id="input2" >
+                 </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                 <label for="input2" class="col col-form-label">Luas Tpk Bangunan</label>
+                 <div class="col">
+                     <input type="text" class="form-control" id="input2" >
+                 </div>
+            </div>
+            <br>                        
+        </div>
+             <!-- col ke 2  -->
+        <div class="col">
+            <div class="form-group row">
+                <label for="input1" class="col col-form-label">Kepemilikan</label>
+                 <div class="col">
+                    <select class="form-select" aria-label="Default select exaple" id="input1">
+                        <option selected>Milik</option>
+                        <option value="1">Individu</option>
+                        <option value="2">Swasta</option>
+                        <option value="3">Pemerintah</option>
+                    </select>
+                </div>
+             </div>
+             <br>
+             <div class="form-group row">
+                <label for="input3" class="col col-form-label">Yg Meminjamkan</label>
+                <div class="col">
+                    <input type="text" class="form-control" id="input3">
+                </div>
+             </div>
+             <br>
+             <div class="form-group row">
+                <label for="input3" class="col col-form-label">Nilai Perolehan Aset</label>
+                <div class="col">
+                    <input type="text" class="form-control" id="input3">
+                </div>
+             </div>
+             <br>
+             <div class="form-group row">
+                <label for="input3" class="col col-form-label">Jumlah Lantai</label>
+                <div class="col">
+                    <input type="text" class="form-control" id="input3">
+                </div>
+             </div>
+             <br>
+             <div class="form-group row">
+                <label for="input3" class="col col-form-label">Tahun Dibangun</label>
+                <div class="col">
+                    <input type="text" class="form-control" id="input3">
+                </div>
+             </div>
+             <br>
+             <div class="form-group row">
+                <label for="input3" class="col col-form-label">Keterangan</label>
+                <div class="col">
+                    <input type="text" class="form-control" id="input3">
+                </div>
+             </div>
+             <br>
+             <div class="form-group row">
+                <label for="input3" class="col col-form-label">Tgl. SK. Pemakai</label>
+                <div class="col">
+                    <input type="date" class="form-control" id="input3"><br>
+                </div>
+            </div>
+            <div class="col" style="float: right;">
+                <button class="btn btn-primary" type="submit">Simpan</button>
+                    <button class="btn btn-danger" type="submit">Batal</button>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!-- akhir form -->
+
+        
+            
+   
+              <script src="bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>
