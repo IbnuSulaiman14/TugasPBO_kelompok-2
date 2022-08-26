@@ -1,7 +1,7 @@
 <?php
 class koneksi{
     function koneksi(){
-        echo "ini adalah ini";
+        echo "ente kadang kadang ente";
     }
 
 
