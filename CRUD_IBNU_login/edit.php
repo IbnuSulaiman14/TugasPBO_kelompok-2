@@ -32,7 +32,7 @@
             <label>Kelas</label>
             <input type="text" name="kelas" value="<?= $data['kelas'] ?>"class="form-control" id="floatingInput">
         </div>
-        <div>
+        <div><br>
             
             
             

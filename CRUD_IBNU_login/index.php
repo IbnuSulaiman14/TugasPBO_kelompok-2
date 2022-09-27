@@ -24,7 +24,7 @@ if(!isset($_SESSION["username"])) {
         $query = $db->query("SELECT * FROM siswa");
         ?>
     
-
+    <h1>Data Siswa</h1>
     <div class="container-sm">
         <a href="tambah.php">Tambah Siswa</a>
         <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered border-info">
@@ -44,7 +44,7 @@ if(!isset($_SESSION["username"])) {
 
                 <td>
                     <a href="edit.php?nis=<?= $data['nis'] ?>"class="btn btn-info">Update</a>
-                    <a href="proses_hapus.php?nis=<?= $data['nis'] ?>"class="btn btn-info">Hapus</a>
+                    <a href="proses_hapus.php?nis=<?= $data['nis'] ?>"class="btn btn-warning">Hapus</a>
                 </td>
             </tr>
         <?php endwhile ?>
@@ -58,7 +58,7 @@ if(!isset($_SESSION["username"])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <form action="logout.php">
-        <button onclick="alert('Anda Telah Logout')">Logout</button>
+        <button onclick="alert('Anda Telah Logout') "class="btn btn-danger">Logout</button>
 </form>
     
   </body>

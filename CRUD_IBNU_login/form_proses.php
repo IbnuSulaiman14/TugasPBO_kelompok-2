@@ -17,7 +17,7 @@
    }
    else if($data['role']=="user"){
       $_SESSION['username'] = $username;
-      header("Location:index.php");
+      header("Location:userindex.php");
   }
 }else{
   header("Location:form.php");

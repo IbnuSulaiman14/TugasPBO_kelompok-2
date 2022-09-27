@@ -23,10 +23,11 @@ if(!isset($_SESSION["username"])) {
         $query = $db->query("SELECT * FROM siswa");
         ?>
     
-
+    <h1>Data Siswa</h1>
     <div class="container-sm">
         <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered border-info">
-            <tr>
+    
+        <tr>
                 <th>Nis</th>
                 <th>Nama</th>
                 <th>Kelas</th>
