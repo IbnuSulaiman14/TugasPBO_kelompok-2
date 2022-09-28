@@ -1,0 +1,6 @@
+
+
+A. Constructor adalah method khusus yang akan dijalankan secara otomatis pada saat sebuah objek dibuat (instansiasi), yakni ketika perintah “new” dijalankan.
+Constructor biasa digunakan untuk membuat proses awal dalam mempersiapkan objek
+
+B. Destructor adalah method khusus yang dijalankan secara otomatis pada saat sebuah objek dihapus.Destructor biasanya dipakai untuk membersihkan beberapa variabel, atau menjalankan proses tertentu sebelum objek dihapus.
